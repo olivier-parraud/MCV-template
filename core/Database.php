@@ -31,7 +31,7 @@ class Database
             // Paramètres de connexion
             $dsn = 'mysql:host=localhost;dbname=mvc;charset=utf8mb4';
             $user = 'root';
-            $pass = '';
+            $pass = 'root';
 
             try {
                 // Création de l'instance PDO avec options
